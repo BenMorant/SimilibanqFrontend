@@ -16,7 +16,7 @@ export class SimilibanqService {
   getGroupFilter = this.setGroupFilter$.asObservable();
 
 
-private similibanqUrl = 'http://localhost:8060/similibanq-backend/rest/similibanq-api'
+private similibanqUrl = 'http://localhost:8060/similibanq-backend/rest/similibanq-api';
 
   constructor(private http: HttpClient) { }
 
@@ -51,7 +51,7 @@ private similibanqUrl = 'http://localhost:8060/similibanq-backend/rest/similiban
     };
   }
 
-  private log(s: string) {
+  private log(s: string): any {
 
   }
 
