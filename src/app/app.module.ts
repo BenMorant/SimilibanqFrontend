@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ConnectionComponent } from './connection/connection.component';
 import { MyAccountsComponent } from './my-accounts/my-accounts.component';
 import { SimilibanqService } from './services/similibanq.service';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConnectionComponent,
-    MyAccountsComponent
+    MyAccountsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
